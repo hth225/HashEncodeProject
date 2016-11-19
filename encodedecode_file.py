@@ -48,7 +48,7 @@ elif value == "4":
         f.close()
 
     else :
-        print ("WRONG TYPE")
+        print("WRONG TYPE")
 
 else :
     print("WRONG TYPE.")
