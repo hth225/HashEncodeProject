@@ -4,10 +4,11 @@ def Decryption():
     value = input("Hash : ")
 
     for line in lines:
-        item = line.split(" ")
+        item = line.split("\t")
         if any(value in s for s in item):
-            print(item)
-            if (item == ""):
+            if (not item):
                 print("Hash is not in Dictionary\nRecommand to use web Hash Decrypter.")
+            else:
+                print(item)
 
 Decryption()
