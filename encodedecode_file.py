@@ -43,7 +43,7 @@ elif value == "4":
         f.close()
 
     elif g == "2":
-        bsd = base64.b64decode(plaintext5.encode("utf-8"))
+        bsd = base64.b64decode(re.encode("utf-8"))
         f.write (bsd)
         f.close()
 
